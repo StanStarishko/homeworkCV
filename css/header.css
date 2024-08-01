@@ -1,1 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+}
+  
+
+/* Style the header */
+picture {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+
+.head_pictures {
+    width: 100%;
+}
+
+.personal_info {
+    padding: 5px;
+}
+
+.full_name {
+    font-size: 75px;
+    padding: 5px 0px 0px 5px;
+}
+
+
+/* Clear floats after the columns */
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+
 
